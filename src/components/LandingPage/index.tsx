@@ -8,7 +8,7 @@ import { SocialIcon } from 'react-social-icons';
 export default function App() {
     return (
         <>
-            <img src={logo} alt="Cake Fox Logo" className="App-logo" />
+            <img src={logo} alt="CakeFox Logo" className="App-logo" />
 
             <div className={style.socials}>
                 <SocialIcon url="https://www.facebook.com/CakeFoxBakes/" target="_blank" />
