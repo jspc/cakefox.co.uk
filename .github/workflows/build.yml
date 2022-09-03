@@ -33,5 +33,9 @@ jobs:
 
     - name: deploy
       run: |
-        npm i
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+
+        npm ci
         npm run deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
