@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cakefox.co.uk/static/css/main.073c9b0a.css",
-    "main.js": "/cakefox.co.uk/static/js/main.f1d61227.js",
-    "static/js/787.81b87399.chunk.js": "/cakefox.co.uk/static/js/787.81b87399.chunk.js",
-    "static/media/hero.jpg": "/cakefox.co.uk/static/media/hero.a572e440621601349e1a.jpg",
-    "index.html": "/cakefox.co.uk/index.html",
-    "main.073c9b0a.css.map": "/cakefox.co.uk/static/css/main.073c9b0a.css.map",
-    "main.f1d61227.js.map": "/cakefox.co.uk/static/js/main.f1d61227.js.map",
-    "787.81b87399.chunk.js.map": "/cakefox.co.uk/static/js/787.81b87399.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.8810db9a.js",
+    "static/js/787.81b87399.chunk.js": "/static/js/787.81b87399.chunk.js",
+    "static/media/hero.jpg": "/static/media/hero.a572e440621601349e1a.jpg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.8810db9a.js.map": "/static/js/main.8810db9a.js.map",
+    "787.81b87399.chunk.js.map": "/static/js/787.81b87399.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f1d61227.js"
+    "static/js/main.8810db9a.js"
   ]
 }
