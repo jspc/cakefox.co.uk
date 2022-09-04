@@ -33,6 +33,8 @@ jobs:
 
     - name: deploy
       run: |
+        git config user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+        git config user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
         npm ci
