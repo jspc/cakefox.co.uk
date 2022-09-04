@@ -21,7 +21,7 @@
     },
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "echo 'cakefox.co.uk' > ./build/CNAME && gh-pages -d build",
+        "deploy": "echo 'cakefox.co.uk' > ./build/CNAME && gh-pages -d build -m \"$(git --no-pager log --format=format:'%s' -n 1)\"",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
